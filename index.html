@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Emman DS - Computer Engineering Student, Musician, Audio Technician, Hardware & Mechatronics Specialist.">
+  <title>Emman DS | Computer Engineer & Multidisciplinary Technician</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Glow Elements -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-top-right" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-center" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand" aria-label="Emman DS Homepage">
+        <span class="brand-monogram">E</span>
+        <span class="brand-text">Emman<span class="brand-accent">.DS</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Expertise</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta-mobile">
+          <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+        </div>
+      </nav>
+
+      <!-- Desktop Action CTA -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline btn-sm nav-cta-desktop">Let's Connect</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content reveal-up">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Available for Tech & Audio Engagements</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Emman DS</span>
+          </h1>
+
+          <div class="hero-roles">
+            <span class="role-prefix">I am a</span>
+            <span class="dynamic-role" id="dynamic-role">Computer Engineer</span>
+            <span class="cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-description">
+            Blending computer engineering, precision electronics repair, mechatronic automation, 
+            and studio-grade sound engineering. Passionate about building intelligent systems and 
+            crafting seamless audio-hardware experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <svg class="icon-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Hero Highlights / Mini Badges -->
+          <div class="hero-pills">
+            <div class="pill-item">
+              <span class="pill-dot"></span>
+              <span>Hardware & Diagnostics</span>
+            </div>
+            <div class="pill-item">
+              <span class="pill-dot"></span>
+              <span>Acoustics & Sound Tech</span>
+            </div>
+            <div class="pill-item">
+              <span class="pill-dot"></span>
+              <span>Mechatronics & Robotics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Profile Image Area -->
+        <div class="hero-visual reveal-scale">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-glow-ring"></div>
+            <div class="avatar-card">
+              <div class="avatar-image-container">
+                <!-- Profile Picture: Place your photo in this folder and name it profile.jpg (or profile.png) -->
+                <img src="profile.jpg" alt="Emman DS - Computer Engineer & Multidisciplinary Specialist" class="profile-photo" id="profilePhoto" onerror="this.style.display='none'; document.getElementById('avatarSvgFallback').style.display='block';">
+
+                <!-- Aesthetic Vector Artwork Fallback (shown automatically if profile.jpg is missing) -->
+                <div id="avatarSvgFallback" class="avatar-illustration" style="display: none;">
+                  <svg viewBox="0 0 320 360" fill="none" xmlns="http://www.w3.org/2000/svg" class="avatar-svg">
+                    <defs>
+                      <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#c084fc" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#4c1d95" />
+                      </linearGradient>
+                      <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#1e1838" />
+                        <stop offset="100%" stop-color="#0e0c1a" />
+                      </linearGradient>
+                      <linearGradient id="circuitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#a855f7" stop-opacity="0.2"/>
+                        <stop offset="100%" stop-color="#c084fc" stop-opacity="0.8"/>
+                      </linearGradient>
+                    </defs>
+
+                    <!-- Background Subtle Tech Grid -->
+                    <circle cx="160" cy="170" r="130" stroke="url(#circuitGrad)" stroke-width="1.5" stroke-dasharray="4 6"/>
+                    <circle cx="160" cy="170" r="105" stroke="rgba(168, 85, 247, 0.2)" stroke-width="1"/>
+                    
+                    <!-- Soundwaves / Frequency lines behind avatar -->
+                    <path d="M 60 170 Q 75 145 90 170 T 120 170 T 150 170 T 180 170 T 210 170 T 240 170 T 260 170" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.35" fill="none"/>
+                    <path d="M 75 185 Q 95 160 115 185 T 155 185 T 195 185 T 235 185" stroke="#c084fc" stroke-width="1" stroke-opacity="0.2" fill="none"/>
+
+                    <!-- Torso / Engineer Silhouette with Modern Tech Accents -->
+                    <path d="M 90 320 C 90 270 120 250 160 250 C 200 250 230 270 230 320 Z" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="2"/>
+                    <!-- Collar & Tie/Badge accent -->
+                    <path d="M 145 250 L 160 275 L 175 250" stroke="#c084fc" stroke-width="2" fill="none"/>
+
+                    <!-- Head & Hair -->
+                    <circle cx="160" cy="180" r="48" fill="#18142a" stroke="#8b5cf6" stroke-width="2"/>
+                    <path d="M 125 170 C 130 140 155 130 185 135 C 198 138 202 152 198 165 C 190 148 170 142 145 150 C 132 154 128 162 125 170 Z" fill="#8b5cf6"/>
+
+                    <!-- Audio Headphones (Representing Musician & Audio Tech) -->
+                    <path d="M 108 178 C 108 140 130 120 160 120 C 190 120 212 140 212 178" stroke="url(#avatarGrad)" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+                    <!-- Left Earcup with glowing indicator -->
+                    <rect x="102" y="165" width="12" height="28" rx="6" fill="#7c3aed" stroke="#c084fc" stroke-width="1.5"/>
+                    <circle cx="108" cy="179" r="2" fill="#fff"/>
+                    <!-- Right Earcup -->
+                    <rect x="206" y="165" width="12" height="28" rx="6" fill="#7c3aed" stroke="#c084fc" stroke-width="1.5"/>
+                    <circle cx="212" cy="179" r="2" fill="#fff"/>
+
+                    <!-- Circuit Board Traces on chest -->
+                    <circle cx="160" cy="285" r="3.5" fill="#c084fc"/>
+                    <line x1="160" y1="288" x2="160" y2="310" stroke="#a855f7" stroke-width="1.5"/>
+                    <line x1="160" y1="298" x2="140" y2="298" stroke="#a855f7" stroke-width="1.5"/>
+                    <circle cx="137" cy="298" r="2.5" fill="#8b5cf6"/>
+                    <line x1="160" y1="303" x2="180" y2="303" stroke="#a855f7" stroke-width="1.5"/>
+                    <circle cx="183" cy="303" r="2.5" fill="#8b5cf6"/>
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Floating Tech Badges -->
+              <div class="floating-badge badge-top-right">
+                <span class="badge-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                  </svg>
+                </span>
+                <div class="badge-info">
+                  <span class="badge-title">Comp Eng & Mechatronics</span>
+                  <span class="badge-subtitle">Hardware & Logic</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom-left">
+                <span class="badge-icon icon-audio">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                  </svg>
+                </span>
+                <div class="badge-info">
+                  <span class="badge-title">Audio Tech & Music</span>
+                  <span class="badge-subtitle">Acoustic & Studio Pro</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to About section">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">01 // Who I Am</span>
+          <h2 class="section-title">Engineering The Physical & Digital Worlds</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Bio Card -->
+          <div class="about-bio-card glass-card reveal-up">
+            <h3 class="bio-subtitle">Cross-Disciplinary Maker & Problem Solver</h3>
+            <p>
+              I am <strong>Emman DS</strong>, an ambitious Computer Engineering student with an extensive 
+              hands-on background as an audio technician, musician, consumer electronics specialist, computer 
+              hardware technician, and mechatronics builder.
+            </p>
+            <p>
+              Rather than viewing software, hardware, sound, and robotics as isolated fields, I view them 
+              as an interconnected continuum. Whether I am diagnosing a micro-shorted power rail on a 
+              laptop motherboard, configuring a multi-channel live audio console, programming microcontrollers 
+              for mechatronic automation, or synthesizing music, I approach every challenge with engineering rigor 
+              and aesthetic clarity.
+            </p>
+            
+            <div class="bio-details">
+              <div class="bio-detail-item">
+                <span class="detail-label">Status:</span>
+                <span class="detail-value">Computer Engineering Student</span>
+              </div>
+              <div class="bio-detail-item">
+                <span class="detail-label">Focus:</span>
+                <span class="detail-value">Hardware, Mechatronics, Sound & Embedded Systems</span>
+              </div>
+              <div class="bio-detail-item">
+                <span class="detail-label">Workbench:</span>
+                <span class="detail-value">SMD Soldering, Oscilloscopes, DAWs & Microcontrollers</span>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <a href="#contact" class="btn btn-primary btn-sm">Let's Collaborate</a>
+              <a href="#projects" class="btn btn-outline btn-sm">Explore Works</a>
+            </div>
+          </div>
+
+          <!-- Right Disciplines Grid -->
+          <div class="about-disciplines-grid">
+            <div class="discipline-card glass-card reveal-up" data-delay="100">
+              <div class="discipline-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h4>Computer Engineering</h4>
+              <p>Logic design, processor architectures, embedded C/C++, system diagnostics, and firmware optimization.</p>
+            </div>
+
+            <div class="discipline-card glass-card reveal-up" data-delay="200">
+              <div class="discipline-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <h4>Mechatronics & Robotics</h4>
+              <p>Actuator control, sensor fusion, servo & stepper drivers, PLC basics, and electromechanical integration.</p>
+            </div>
+
+            <div class="discipline-card glass-card reveal-up" data-delay="300">
+              <div class="discipline-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                  <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                </svg>
+              </div>
+              <h4>Audio Tech & Musician</h4>
+              <p>Studio recording, analog & digital mixing, acoustic calibration, PA system deployment, and instrumentation.</p>
+            </div>
+
+            <div class="discipline-card glass-card reveal-up" data-delay="400">
+              <div class="discipline-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h4>Hardware & Electronics</h4>
+              <p>Component-level board repair, micro-soldering, power sequencing troubleshooting, and consumer electronics repair.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Stats Banner -->
+        <div class="stats-banner glass-card reveal-up">
+          <div class="stat-item">
+            <span class="stat-number">6+</span>
+            <span class="stat-title">Disciplines Mastered</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-title">Hands-on Workbench Ready</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">24/7</span>
+            <span class="stat-title">Curiosity & Craftsmanship</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">10+</span>
+            <span class="stat-title">Hardware & Audio Projects</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">02 // Capabilities</span>
+          <h2 class="section-title">Technical Skills & Expertise</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            A balanced synthesis of analytical computer engineering, hands-on circuitry, mechatronics, and acoustic mastery.
+          </p>
+        </div>
+
+        <!-- Skills Category Tabs -->
+        <div class="skills-tab-nav reveal-up">
+          <button class="skill-tab-btn active" data-tab="all">All Disciplines</button>
+          <button class="skill-tab-btn" data-tab="engineering">Computer Eng.</button>
+          <button class="skill-tab-btn" data-tab="hardware">Hardware & Repair</button>
+          <button class="skill-tab-btn" data-tab="mechatronics">Mechatronics</button>
+          <button class="skill-tab-btn" data-tab="audio">Audio Tech & Music</button>
+        </div>
+
+        <div class="skills-wrapper">
+          <!-- Computer Engineering -->
+          <div class="skill-category-card glass-card reveal-up" data-category="engineering">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3>Computer Engineering & Architecture</h3>
+            </div>
+            
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">C / C++ & Embedded Programming</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Computer Architecture & Digital Logic</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 85%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python, Algorithms & Scripting</span>
+                  <span class="skill-percent">82%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 82%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Microcontroller Firmware (STM32, ESP32)</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 88%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tool-tags">
+              <span class="tool-tag">Linux</span>
+              <span class="tool-tag">Git</span>
+              <span class="tool-tag">PlatformIO</span>
+              <span class="tool-tag">STM32CubeIDE</span>
+              <span class="tool-tag">Assembly Basics</span>
+            </div>
+          </div>
+
+          <!-- Hardware & Consumer Electronics -->
+          <div class="skill-category-card glass-card reveal-up" data-category="hardware">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+              <h3>Hardware & Consumer Electronics</h3>
+            </div>
+
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Motherboard & Circuit Diagnostics</span>
+                  <span class="skill-percent">95%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 95%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Micro-Soldering & SMD Rework</span>
+                  <span class="skill-percent">92%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 92%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Oscilloscope, Multimeter & Schematics</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Consumer Device Repair (Laptops, Consoles)</span>
+                  <span class="skill-percent">94%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 94%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tool-tags">
+              <span class="tool-tag">Hot Air Rework</span>
+              <span class="tool-tag">Thermal Cam</span>
+              <span class="tool-tag">Boardview</span>
+              <span class="tool-tag">Voltage Injection</span>
+              <span class="tool-tag">BIOS Flashing</span>
+            </div>
+          </div>
+
+          <!-- Mechatronics & Automation -->
+          <div class="skill-category-card glass-card reveal-up" data-category="mechatronics">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+              </div>
+              <h3>Mechatronics & Robotics</h3>
+            </div>
+
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Actuators, Steppers & Servo Control</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 88%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Sensors & Industrial Telemetry</span>
+                  <span class="skill-percent">86%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 86%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">3D CAD Modeling & Prototyping</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 80%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Feedback Loops & Motor Drivers (H-Bridge, PWM)</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 85%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tool-tags">
+              <span class="tool-tag">SolidWorks</span>
+              <span class="tool-tag">Fusion 360</span>
+              <span class="tool-tag">3D Printing</span>
+              <span class="tool-tag">Relay Modules</span>
+              <span class="tool-tag">PID Control</span>
+            </div>
+          </div>
+
+          <!-- Audio Technician & Musician -->
+          <div class="skill-category-card glass-card reveal-up" data-category="audio">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                  <line x1="12" y1="19" x2="12" y2="23"></line>
+                  <line x1="8" y1="23" x2="16" y2="23"></line>
+                </svg>
+              </div>
+              <h3>Audio Engineering & Musical Craft</h3>
+            </div>
+
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Live Sound Reinforcement & FOH Mixing</span>
+                  <span class="skill-percent">94%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 94%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Studio Recording, Mixing & DAW Workflow</span>
+                  <span class="skill-percent">91%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 91%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Analog Audio Gear Calibration & Repair</span>
+                  <span class="skill-percent">89%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 89%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span class="skill-name">Musical Composition & Performance</span>
+                  <span class="skill-percent">87%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" style="--target-width: 87%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tool-tags">
+              <span class="tool-tag">Digital Consoles (Behringer X32 / Allen&Heath)</span>
+              <span class="tool-tag">Reaper / Pro Tools</span>
+              <span class="tool-tag">XLR / Snake Wiring</span>
+              <span class="tool-tag">DSP Equalization</span>
+              <span class="tool-tag">Synthesizers & Keys</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">03 // Portfolio</span>
+          <h2 class="section-title">Featured Engineering & Audio Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            A curated showcase of hardware builds, mechatronic systems, audio equipment, and engineering implementations.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filters reveal-up">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="mechatronics">Mechatronics</button>
+          <button class="filter-btn" data-filter="audio">Audio & Music</button>
+          <button class="filter-btn" data-filter="hardware">Hardware & Repair</button>
+          <button class="filter-btn" data-filter="engineering">Computer Eng.</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project 1: Mechatronics -->
+          <article class="project-card glass-card reveal-up" data-project-cat="mechatronics">
+            <div class="project-visual">
+              <div class="project-badge mechatronics">Mechatronics</div>
+              <div class="project-img-placeholder">
+                <svg viewBox="0 0 400 240" fill="none" class="project-svg">
+                  <rect width="400" height="240" fill="#120e24"/>
+                  <!-- Robotic arm schematic visual -->
+                  <circle cx="200" cy="180" r="30" stroke="#a855f7" stroke-width="2" fill="#1a1533"/>
+                  <path d="M 200 150 L 150 90 L 220 50 L 250 80" stroke="#c084fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="150" cy="90" r="6" fill="#8b5cf6"/>
+                  <circle cx="220" cy="50" r="6" fill="#8b5cf6"/>
+                  <!-- Gripper -->
+                  <path d="M 245 75 L 265 70 M 255 85 L 275 90" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
+                  <circle cx="270" cy="80" r="10" fill="#c084fc" fill-opacity="0.2" stroke="#c084fc" stroke-width="1.5"/>
+                  <!-- Base grid lines -->
+                  <line x1="80" y1="180" x2="320" y2="180" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1.5"/>
+                  <line x1="120" y1="200" x2="280" y2="200" stroke="rgba(168, 85, 247, 0.2)" stroke-width="1"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Autonomous 4-DOF Robotic Sorter</h3>
+              <p class="project-desc">
+                An automated mechatronic sorting arm powered by an ESP32 microcontroller, utilizing PWM servo drivers, 
+                color sensing, and ultrasonic obstacle avoidance to classify components on a conveyor line.
+              </p>
+              <div class="project-tags">
+                <span class="tag">ESP32</span>
+                <span class="tag">C++</span>
+                <span class="tag">Inverse Kinematics</span>
+                <span class="tag">3D Printing</span>
+              </div>
+              <div class="project-footer">
+                <button class="project-details-btn" data-modal="modal-robotic">View Specifications &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Audio & Music Tech -->
+          <article class="project-card glass-card reveal-up" data-project-cat="audio">
+            <div class="project-visual">
+              <div class="project-badge audio">Audio Tech</div>
+              <div class="project-img-placeholder">
+                <svg viewBox="0 0 400 240" fill="none" class="project-svg">
+                  <rect width="400" height="240" fill="#130e25"/>
+                  <!-- Audio equalizer / VU meter visual -->
+                  <rect x="50" y="40" width="300" height="150" rx="10" stroke="#a855f7" stroke-width="2" fill="#1b1435"/>
+                  <!-- VU Meter needles -->
+                  <path d="M 120 150 L 140 80" stroke="#c084fc" stroke-width="3" stroke-linecap="round"/>
+                  <circle cx="120" cy="150" r="8" fill="#8b5cf6"/>
+                  <path d="M 280 150 L 260 90" stroke="#c084fc" stroke-width="3" stroke-linecap="round"/>
+                  <circle cx="280" cy="150" r="8" fill="#8b5cf6"/>
+                  <!-- Waveform glow -->
+                  <path d="M 60 165 C 100 120 140 180 180 140 C 220 100 260 170 300 130 C 320 120 340 150 350 160" stroke="#a855f7" stroke-width="2" fill="none"/>
+                  <!-- Knobs -->
+                  <circle cx="90" cy="65" r="12" stroke="#a855f7" stroke-width="1.5" fill="#241b44"/>
+                  <circle cx="130" cy="65" r="12" stroke="#a855f7" stroke-width="1.5" fill="#241b44"/>
+                  <circle cx="270" cy="65" r="12" stroke="#a855f7" stroke-width="1.5" fill="#241b44"/>
+                  <circle cx="310" cy="65" r="12" stroke="#a855f7" stroke-width="1.5" fill="#241b44"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Low-Noise Discrete Preamp & Audio DSP</h3>
+              <p class="project-desc">
+                Engineered a studio-grade analog preamplifier module featuring balanced differential inputs, ultra-low 
+                THD+N, and a microcontroller-managed active parametric filter for studio calibration.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Analog Circuitry</span>
+                <span class="tag">Op-Amps</span>
+                <span class="tag">Acoustics</span>
+                <span class="tag">PCB Design</span>
+              </div>
+              <div class="project-footer">
+                <button class="project-details-btn" data-modal="modal-preamp">View Specifications &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Hardware Diagnostics & Consumer Repair -->
+          <article class="project-card glass-card reveal-up" data-project-cat="hardware">
+            <div class="project-visual">
+              <div class="project-badge hardware">Hardware Repair</div>
+              <div class="project-img-placeholder">
+                <svg viewBox="0 0 400 240" fill="none" class="project-svg">
+                  <rect width="400" height="240" fill="#120e24"/>
+                  <!-- Motherboard trace schematic visual -->
+                  <rect x="70" y="50" width="260" height="140" rx="8" stroke="#8b5cf6" stroke-width="1.5" fill="#1a1436"/>
+                  <!-- Chip / BGA Package -->
+                  <rect x="160" y="85" width="80" height="70" rx="4" fill="#291e52" stroke="#c084fc" stroke-width="2"/>
+                  <circle cx="175" cy="100" r="2" fill="#fff"/>
+                  <circle cx="200" cy="120" r="12" stroke="#a855f7" stroke-width="1" stroke-dasharray="2 3"/>
+                  <!-- Traces & SMD Capacitors -->
+                  <path d="M 100 80 L 160 80" stroke="#a855f7" stroke-width="2"/>
+                  <path d="M 100 110 L 160 110" stroke="#a855f7" stroke-width="2"/>
+                  <path d="M 240 100 L 300 100" stroke="#c084fc" stroke-width="2"/>
+                  <path d="M 240 135 L 290 135 L 290 160" stroke="#a855f7" stroke-width="2"/>
+                  <!-- Probe Needle -->
+                  <line x1="220" y1="40" x2="190" y2="105" stroke="#ec4899" stroke-width="2"/>
+                  <circle cx="190" cy="105" r="4" fill="#ec4899"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Power Rail Diagnostic & Short Detection Rig</h3>
+              <p class="project-desc">
+                A custom workbench diagnostic setup using regulated voltage injection, thermal imaging, and milliohm 
+                impedance measurement to pinpoint micro-shorted MLCC capacitors on dense motherboard power rails.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Micro-Soldering</span>
+                <span class="tag">SMD Rework</span>
+                <span class="tag">Thermal Imaging</span>
+                <span class="tag">Boardview</span>
+              </div>
+              <div class="project-footer">
+                <button class="project-details-btn" data-modal="modal-hardware">View Specifications &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Computer Engineering -->
+          <article class="project-card glass-card reveal-up" data-project-cat="engineering">
+            <div class="project-visual">
+              <div class="project-badge engineering">Computer Eng.</div>
+              <div class="project-img-placeholder">
+                <svg viewBox="0 0 400 240" fill="none" class="project-svg">
+                  <rect width="400" height="240" fill="#120e24"/>
+                  <!-- CPU / Microarchitecture pipeline visual -->
+                  <rect x="60" y="60" width="60" height="110" rx="6" stroke="#8b5cf6" stroke-width="1.5" fill="#1c1638"/>
+                  <text x="75" y="120" fill="#c084fc" font-size="12" font-family="monospace">IF/ID</text>
+                  <rect x="140" y="60" width="60" height="110" rx="6" stroke="#8b5cf6" stroke-width="1.5" fill="#1c1638"/>
+                  <text x="155" y="120" fill="#c084fc" font-size="12" font-family="monospace">ALU</text>
+                  <rect x="220" y="60" width="60" height="110" rx="6" stroke="#8b5cf6" stroke-width="1.5" fill="#1c1638"/>
+                  <text x="235" y="120" fill="#c084fc" font-size="12" font-family="monospace">MEM</text>
+                  <rect x="300" y="60" width="50" height="110" rx="6" stroke="#8b5cf6" stroke-width="1.5" fill="#1c1638"/>
+                  <text x="312" y="120" fill="#c084fc" font-size="12" font-family="monospace">WB</text>
+                  <!-- Data bus arrows -->
+                  <path d="M 120 115 L 140 115 M 200 115 L 220 115 M 280 115 L 300 115" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">FPGA-Based RISC-V Soft Processor Core</h3>
+              <p class="project-desc">
+                Designed a 32-bit single-issue processor core implementing the RV32I base integer instruction set in 
+                Verilog HDL, verified via simulation testbenches and deployed to an Altera FPGA development board.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Verilog HDL</span>
+                <span class="tag">FPGA</span>
+                <span class="tag">RISC-V</span>
+                <span class="tag">Digital Logic</span>
+              </div>
+              <div class="project-footer">
+                <button class="project-details-btn" data-modal="modal-riscv">View Specifications &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Mechatronics / IoT -->
+          <article class="project-card glass-card reveal-up" data-project-cat="mechatronics">
+            <div class="project-visual">
+              <div class="project-badge mechatronics">Mechatronics</div>
+              <div class="project-img-placeholder">
+                <svg viewBox="0 0 400 240" fill="none" class="project-svg">
+                  <rect width="400" height="240" fill="#130e25"/>
+                  <!-- IoT Smart telemetry visual -->
+                  <circle cx="200" cy="120" r="45" stroke="#a855f7" stroke-width="2" fill="#20173f"/>
+                  <circle cx="200" cy="120" r="75" stroke="#a855f7" stroke-width="1" stroke-dasharray="4 6" stroke-opacity="0.5"/>
+                  <circle cx="100" cy="80" r="16" fill="#17122e" stroke="#c084fc" stroke-width="1.5"/>
+                  <circle cx="300" cy="80" r="16" fill="#17122e" stroke="#c084fc" stroke-width="1.5"/>
+                  <circle cx="200" cy="200" r="16" fill="#17122e" stroke="#c084fc" stroke-width="1.5"/>
+                  <!-- Interconnecting lines -->
+                  <line x1="115" y1="88" x2="165" y2="105" stroke="#8b5cf6" stroke-width="1.5"/>
+                  <line x1="285" y1="88" x2="235" y2="105" stroke="#8b5cf6" stroke-width="1.5"/>
+                  <line x1="200" y1="184" x2="200" y2="165" stroke="#8b5cf6" stroke-width="1.5"/>
+                  <text x="185" y="125" fill="#fff" font-size="12" font-family="monospace">MESH</text>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Smart Workshop Telemetry & Climate Control</h3>
+              <p class="project-desc">
+                An automated environmental monitoring node measuring workbench temperature, humidity, and ESD static levels 
+                with automated exhaust servo triggers and real-time OLED telemetry.
+              </p>
+              <div class="project-tags">
+                <span class="tag">IoT Mesh</span>
+                <span class="tag">Sensors</span>
+                <span class="tag">I2C / SPI</span>
+                <span class="tag">Automation</span>
+              </div>
+              <div class="project-footer">
+                <button class="project-details-btn" data-modal="modal-telemetry">View Specifications &rarr;</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Music & Audio Tech -->
+          <article class="project-card glass-card reveal-up" data-project-cat="audio">
+            <div class="project-visual">
+              <div class="project-badge audio">Music & Audio</div>
+              <div class="project-img-placeholder">
+                <svg viewBox="0 0 400 240" fill="none" class="project-svg">
+                  <rect width="400" height="240" fill="#120e24"/>
+                  <!-- Synthesizer keyboard and MIDI interface visual -->
+                  <!-- Synth keys -->
+                  <rect x="70" y="80" width="260" height="90" rx="6" fill="#1b1535" stroke="#8b5cf6" stroke-width="2"/>
+                  <!-- White keys -->
+                  <rect x="80" y="90" width="24" height="70" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+                  <rect x="108" y="90" width="24" height="70" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+                  <rect x="136" y="90" width="24" height="70" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+                  <rect x="164" y="90" width="24" height="70" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+                  <rect x="192" y="90" width="24" height="70" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+                  <rect x="220" y="90" width="24" height="70" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+                  <rect x="248" y="90" width="24" height="70" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+                  <rect x="276" y="90" width="24" height="70" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+                  <!-- Black keys -->
+                  <rect x="98" y="90" width="16" height="42" rx="2" fill="#2d1f4c"/>
+                  <rect x="126" y="90" width="16" height="42" rx="2" fill="#2d1f4c"/>
+                  <rect x="182" y="90" width="16" height="42" rx="2" fill="#2d1f4c"/>
+                  <rect x="210" y="90" width="16" height="42" rx="2" fill="#2d1f4c"/>
+                  <rect x="238" y="90" width="16" height="42" rx="2" fill="#2d1f4c"/>
+                  <!-- Pitch wheel -->
+                  <rect x="306" y="95" width="14" height="35" rx="3" fill="#c084fc"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Custom MIDI Controller & Analog Synth Module</h3>
+              <p class="project-desc">
+                Handcrafted dual-oscillator analog synthesizer voice with integrated USB-MIDI controller interface, 
+                velocity-sensitive optical keybed sensors, and analog low-pass ladder filter.
+              </p>
+              <div class="project-tags">
+                <span class="tag">MIDI Protocol</span>
+                <span class="tag">Analog VCO</span>
+                <span class="tag">Synthesizer</span>
+                <span class="tag">Micro-controller</span>
+              </div>
+              <div class="project-footer">
+                <button class="project-details-btn" data-modal="modal-synth">View Specifications &rarr;</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Technical Expertise Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">04 // Services</span>
+          <h2 class="section-title">Specialized Services & Engineering</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Professional diagnostic, engineering, and audio production support delivered with precision.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card glass-card reveal-up">
+            <div class="service-number">01</div>
+            <h3>Component-Level Hardware Repair</h3>
+            <p>
+              Diagnostic troubleshooting of laptop motherboards, desktop logic boards, and consumer electronics. 
+              SMD component replacement, BGA reballing, and power sequencing fault isolation.
+            </p>
+            <ul class="service-list">
+              <li>Short circuit detection & thermal diagnosis</li>
+              <li>Micro-soldering & trace repair</li>
+              <li>BIOS/Firmware flashing & recovery</li>
+            </ul>
+          </div>
+
+          <div class="service-card glass-card reveal-up" data-delay="100">
+            <div class="service-number">02</div>
+            <h3>Mechatronic & IoT Prototyping</h3>
+            <p>
+              End-to-end development of electromechanical automation, actuator control systems, sensor integration, 
+              and custom micro-controller hardware prototypes.
+            </p>
+            <ul class="service-list">
+              <li>Motor control (Stepper, Servo, BLDC)</li>
+              <li>Sensor data acquisition & wireless telemetry</li>
+              <li>Rapid CAD design & physical prototyping</li>
+            </ul>
+          </div>
+
+          <div class="service-card glass-card reveal-up" data-delay="200">
+            <div class="service-number">03</div>
+            <h3>Audio Engineering & Live Sound</h3>
+            <p>
+              FOH and broadcast sound management, multi-channel live mixing, studio recording setups, 
+              and acoustic calibration for venues and rehearsal spaces.
+            </p>
+            <ul class="service-list">
+              <li>Digital audio console routing & DSP</li>
+              <li>Acoustic treatment & speaker tuning</li>
+              <li>Custom audio cabling & analog gear maintenance</li>
+            </ul>
+          </div>
+
+          <div class="service-card glass-card reveal-up" data-delay="300">
+            <div class="service-number">04</div>
+            <h3>Computer Engineering Solutions</h3>
+            <p>
+              Firmware programming, microcontroller application development, embedded C/C++ architecture, 
+              and digital hardware validation.
+            </p>
+            <ul class="service-list">
+              <li>Embedded C/C++ development (ARM/ESP32)</li>
+              <li>Peripheral protocols (UART, SPI, I2C, CAN)</li>
+              <li>Hardware-software co-design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">05 // Inquiries</span>
+          <h2 class="section-title">Let's Connect & Build Together</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Have a project in mind, need technical repair diagnostics, audio engineering support, or mechatronics prototyping? Send a message.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact Information & Socials -->
+          <div class="contact-info-card glass-card reveal-up">
+            <h3>Get in Touch</h3>
+            <p>
+              I am always eager to collaborate on innovative hardware prototypes, audio production projects, 
+              or computer engineering opportunities.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="contact-info-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="info-label">Email</span>
+                  <a href="mailto:emman.ds.tech@gmail.com" class="info-link">emman.ds.tech@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="info-label">Location</span>
+                  <span class="info-text">Philippines • Available for Remote & On-Site</span>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="info-label">Response Time</span>
+                  <span class="info-text">Within 24 Hours</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-links-wrapper">
+              <span class="social-title">Follow & Connect</span>
+              <div class="social-icons">
+                <!-- GitHub -->
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Emman DS on GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Emman DS on LinkedIn">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+                <!-- Music / SoundCloud / Audio -->
+                <a href="https://soundcloud.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Emman DS Audio & Music">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                  </svg>
+                </a>
+                <!-- Instagram / Tech Lab -->
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Emman DS on Instagram">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form UI (No Backend) -->
+          <div class="contact-form-wrapper glass-card reveal-up">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name <span class="required">*</span></label>
+                  <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Alex Rivera" required>
+                  <span class="field-error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="e.g. alex@example.com" required>
+                  <span class="field-error" id="emailError"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="interest">Area of Interest</label>
+                <div class="select-wrapper">
+                  <select id="interest" name="interest" class="form-control select-control">
+                    <option value="general">General Collaboration</option>
+                    <option value="hardware">Computer / Hardware Repair & Diagnostics</option>
+                    <option value="mechatronics">Mechatronics & Robotics Prototype</option>
+                    <option value="audio">Audio Engineering & Sound Reinforcement</option>
+                    <option value="engineering">Computer Engineering / Firmware</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject <span class="required">*</span></label>
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="What would you like to discuss?" required>
+                <span class="field-error" id="subjectError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="5" class="form-control" placeholder="Describe your project, technical inquiry, or message..." required></textarea>
+                <span class="field-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <svg class="btn-spinner" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                  <circle cx="12" cy="12" r="10" stroke-opacity="0.25"></circle>
+                  <path d="M12 2a10 10 0 0 1 10 10" stroke-linecap="round"></path>
+                </svg>
+              </button>
+            </form>
+
+            <!-- Form Success Notification Toast -->
+            <div class="form-toast" id="formToast" role="alert" aria-live="polite">
+              <div class="toast-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="toast-content">
+                <strong>Message Dispatched!</strong>
+                <p>Thank you for reaching out. Emman DS will respond to your inquiry shortly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Specifications Modal -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-container glass-card">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Content will be dynamically inserted via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="nav-brand">
+            <span class="brand-monogram">E</span>
+            <span class="brand-text">Emman<span class="brand-accent">.DS</span></span>
+          </a>
+          <p class="footer-tagline">
+            Computer Engineering Student • Musician & Audio Technician • Hardware & Mechatronics Specialist
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="currentYear"></span> <strong>Emman DS</strong>. Crafted with precision, logic, and acoustic soul.
+        </p>
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
